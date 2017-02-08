@@ -25,34 +25,70 @@ a {
     height: 370px;
 }
 
-#home-content h1 {
-    padding-top: 10px;
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Papyrus', 'Georgia', serif;
-}
-
-#home-content p {
-    margin-top: 5px;
-    font-size: 20px;
-}
-
 #home-content img {
     height: 350px;
     padding: 8px;
     background-color: #A977BF;
 }
 
+#hotels-content h1 {
+    text-align: left;
+}
+#hotels-content, #hotels-header {
+    width: 750px;
+    margin: auto;
+    font-family: 'Georgie', serif;
+}
+#hotels-content {
+    margin-top: 15px;
+    height: 250px;
+}
+#hotels-content p, #hotels-header p {
+    text-align: left;
+}
+#hotels-content img {
+    height: 250px;
+    padding: 8px;
+    background-color: #A977BF;
+    margin-right: 15px;
+}
+
+#hotels-header {
+    margin-top: 15px;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: 'Papyrus', 'Georgia', serif;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+img {
+
+}
+
+#hotels-links {
+    width: 750px;
+}
+
 #home-links {
-    border-radius: 5px;
     width: 700px;
+}
+
+.links {
+    border-radius: 5px;
     margin: auto;
     background-color: #432F57;
     padding: 10px;
     text-align: left;
 }
 
-#home-links a {
+.links a {
     color: #FBF7FF;
     display: inline-block;
     padding: 12px;
@@ -63,7 +99,7 @@ a {
     line-height:16px;
 }
 
-#home-links a:hover {
+.links a:hover {
     color: #592C6D;
     background-color: #FBF7FF;
 }
